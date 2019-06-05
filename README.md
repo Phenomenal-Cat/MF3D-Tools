@@ -25,7 +25,7 @@ This video demonstrates how our macaque model of emotional facial expressions (f
 **Facial dynamics estimation**<br>
 <a href="http://player.vimeo.com/video/329805226?autoplay=1" target="_blank">
 <img align="left" src="https://user-images.githubusercontent.com/7523776/58974071-8ef4ed00-878f-11e9-8a31-c85cdcded431.png" width="300" alt="Facial dynamics"></a>
-In order to simulate naturalistic facial dynamics in our macaque avatar, we estimate the time courses of facial motion from video footage of real animals. Applying these time courses to the animation of bones and shape keys of the model, we can mimic the facial motion of the original clip, while retaining independent control over a wide range of other variables. The output animation can be rendered at a higher resolution and frame rate (using interpolation) than the input video. (Original video footage in the left panel is used with permission of Off The Fence TM).<br>
+In order to simulate naturalistic facial dynamics in our macaque avatar, we estimate the time courses of facial motion from video footage of real animals. Applying these time courses to the animation of bones and shape keys of the model, we can mimic the facial motion of the original clip, while retaining independent control over a wide range of other variables. The output animation can be rendered at a higher resolution and frame rate (using interpolation) than the input video. (Original video footage in the left panel is used with permission of Off The Fence™).<br>
  
 
 **Identity morphing**<br>
