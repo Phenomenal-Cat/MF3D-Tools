@@ -44,6 +44,6 @@ This video demonstrates how our macaque model of individual variations in cranio
 The code in this repository is licensed under GNU General Public License [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/#), while the media provided in the MF3D R1 stimulus set is licensed under Creative Commons [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/).
 If you use any content from the stimulus set in your research, we ask that you cite the following publication:
 
-[Murphy AP & Leopold DA (2019). A parameterized digital 3D model of the Rhesus macaque face for investigating the visual processing of social cues. J.Neurosci.Methods. ](https://www.sciencedirect.com/journal/journal-of-neuroscience-methods)
+[Murphy AP & Leopold DA (2019). A parameterized digital 3D model of the Rhesus macaque face for investigating the visual processing of social cues. J.Neurosci.Methods. ](https://doi.org/10.1016/j.jneumeth.2019.06.001)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
