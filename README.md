@@ -45,3 +45,8 @@ In order to simulate naturalistic facial dynamics in our macaque avatar, we esti
 <a href="http://player.vimeo.com/video/323447440?autoplay=1" target="_blank">
 <img align="left" src="https://user-images.githubusercontent.com/7523776/58974073-8ef4ed00-878f-11e9-84f7-38b6fb8e15b4.png" width="300" alt="Identity morphing"></a>
 This video demonstrates how our macaque model of individual variations in cranio-facial morphology (i.e. 3D shape) can be continuously and parametrically varied to adjust appearance. The statistical model was constructed through principal component analysis (PCA) of the 3D surface reconstructions of 23 real Rhesus monkeys from computed tomography (CT) data acquired under anesthesia. The 3D plot in the top right corner illustrates the first three principal components of this 'face-space', where the origin of the plot represents the sample average face.
+
+**Animated sequences**<br>
+<a href="http://player.vimeo.com/video/394782616?autoplay=1" target="_blank">
+ <img align="left" src="https://user-images.githubusercontent.com/7523776/75631014-50c11880-5bbd-11ea-8836-b952a9ef283f.png" width="300" alt="Animated sequences"></a>
+This video demonstrates how animation clips from the MF3D R1 Animation stimulus set can be combined to form a longer continuous animation sequence for use in experiments that require more naturalistic dynamics. This example was generated using a Python script to control Blender's video sequence editor: [MF3D_ConcatClips_Demo.py](https://github.com/MonkeyGone2Heaven/MF3D-Tools/blob/master/MF3D_ConcatClips_Demo.py).
