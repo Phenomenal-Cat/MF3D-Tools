@@ -1,3 +1,5 @@
+<img align="left" src="https://user-images.githubusercontent.com/7523776/76351398-c3c83e80-62e3-11ea-8091-65b2a4cff818.png" width="200" alt="MF3D logo"></a>
+
 ### About this MF3D repository
 This GitHub repository has been created to host code (Matlab and Python) to facilitate the selection, loading, editing, analysis and saving of images and animations from the [MF3D stimulus set](https://figshare.com/projects/MF3D_Release_1_A_visual_stimulus_set_of_parametrically_controlled_CGI_macaque_faces_for_research/64544). The images and animations themselves are hosted on figshare and must be downloaded separately for this code to be of use:
 * MF3D Expression set: https://doi.org/10.6084/m9.figshare.8226029
