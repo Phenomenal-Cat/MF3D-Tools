@@ -3,7 +3,7 @@
 # MF3D <small>1.0</small>
 
 [GitHub](https://github.com/MonkeyGone2Heaven/MF3D-Tools)
-[Get Started](#quick-start)
+[Get Started](#about-the-mf3d-tools-repository)
 
 <!-- background image -->
 
