@@ -8,7 +8,7 @@
 
 <!-- background image -->
 
-![](https://github.com/MonkeyGone2Heaven/MF3D-Tools/blob/master/docs/MF3D_logoV2.png?raw=true)
+![](https://github.com/MonkeyGone2Heaven/MF3D-Tools/blob/master/docs/MF3D_Neutral_Cover.png?raw=true)
 
 <!-- background color -->
 
