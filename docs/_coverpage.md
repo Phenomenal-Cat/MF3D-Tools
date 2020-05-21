@@ -10,7 +10,7 @@
 
 <!-- background image -->
 
-![](https://github.com/MonkeyGone2Heaven/MF3D-Tools/blob/master/docs/MF3D_logoV2.png?raw=true)
+![](https://raw.githubusercontent.com/MonkeyGone2Heaven/MF3D-Tools/c18a1f1b3cb065eb100917910eaea832c7e50e52/docs/MF3D_Logo_black.svg)
 
 <!-- background color -->
 
