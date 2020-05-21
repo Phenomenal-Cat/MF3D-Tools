@@ -3,8 +3,8 @@
 * [Stimulus selection](#stimulus-selection)<br>
 * [Preview panel](#preview-panel)<br>
 * [Image masking](#image-masking)<br>
-* [Cropping and rescaling]<br>
-* [Image analysis]<br>
+* [Cropping and rescaling](#cropping-and-rescaling)<br>
+* [Image analysis](#image-analysis)<br>
 
 We provide a graphical user interface (GUI) programmed in Matlab ([`MF3D_StimEditor.m`]()) to help users of the MF3D  R1 stimulus set select, load, edit, analyse and save the images that they wish to use in their experiments. The GUI is intended to provide an easy way for users to select subsets of the 14,000 images and apply simple image manipulations without requiring them to write their own code. However, the code can easily be adapted by users who wish to perform other operations that are not currently implemented in the GUI.
 
