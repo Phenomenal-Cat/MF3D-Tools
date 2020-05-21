@@ -2,7 +2,7 @@
 %========================== MF3D_StimEditor.m =============================
 % Ths Matlab function launches a graphical user interface (GUI) to simplify
 % the selection, editing and saving of visual stimuli from the MF3D R1
-% database. It must be run from the 'MF3D_Code' folder inside the MF3D folder
+% database. It should be run from the 'MF3D_Code' folder inside the MF3D folder
 % in order for relative paths to work. Custom image processing operations
 % can be added by adding code inside the 'ProcessAndSaveImages'subfunction.
 %
@@ -14,6 +14,9 @@ function MF3D_StimEditor()
 %================== Load summary data
 Params.SubSets          = {'Expressions','Identities'};
 Params.RootDir          = fileparts(fileparts(mfilename('fullpath')));
+if ~isfolder(fullfile(Params.RootDir, 'MF3D_Expressions'))
+    Params.RootDir = uigetdir(cd, 'Select MF3D_R1 download directory');
+end
 Params.ExpDir           = fullfile(Params.RootDir, 'MF3D_Expressions');
 Params.IdDir            = fullfile(Params.RootDir, 'MF3D_Identities');
 Params.SetDirs          = {Params.ExpDir, Params.IdDir};
