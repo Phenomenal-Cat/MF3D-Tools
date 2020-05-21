@@ -4,6 +4,8 @@
 [Identity subset](#identity-subset)<br>
 [Animation subset](#animation-subset)<br>
 
+---
+
 ## What's in MF3D R1?
 
 As a first step in the development of a standardized face database for the macaque research community, we have rendered a stimulus set specifically for public release. The set consists of 14,000 static rendered conditions, saved as high resolution (3840 x 2160 pixels, 32-bit) RGBA images in .png format ([Figure 1A, i]()). The inclusion of the alpha transparency channel allows for compositing of multiple images into a frame, including backgrounds, as well as making it easy to generate control stimuli with identical silhouettes. The high resolution permits down-sampling or cropping as appropriate for the display size being used. 
@@ -16,7 +18,7 @@ The virtual scene was configured such that the avatar will appear at real-world 
     </figcaption>
     </font>
 </figure>
-<br>
+---
 
 ## Expression subset
 
@@ -25,6 +27,8 @@ The static stimuli of MF3D release 1 are divided into two collections: 1) variab
 ![Figure B](https://user-images.githubusercontent.com/7523776/58966854-0bcc9a80-8781-11e9-82ad-bc2b22616581.png)
 **Figure 1B, Expression stimuli.** **i.** All head orientations rendered for each expression condition (neutral expression shown for illustration): 19 azimuth angles (-90 to +90° in 10° increments) x 7 elevation angles (-30 to +30° in 10° increments) for 133 unique head orientations. **ii.** Five facial expressions (rows) rendered at four levels of intensity (columns), at each of the head orientations illustrated in F, for a total of 2,793 unique colour images. 
 
+---
+
 ## Identity subset
 
 For the identity set, we selected a subset of head orientations (±90° azimuth x ±30° elevation in 30° increments = 21 orientations; [Figure 1C, i]()), and co-varied facial morphology based on distinct trajectories within PCA-space (n = 65; [Figure 1C, ii]()), including each of the first five PCs (which together account for 75% of the sample variance in facial morphology), with distinctiveness (Euclidean distance from the average face, ±4σ in 1σ increments = 8 levels, excluding the mean; [Figure 1C, iii]()) for a total of 10,941 identity images. 
@@ -32,6 +36,8 @@ For the identity set, we selected a subset of head orientations (±90° azimuth 
 ![Figure C](https://user-images.githubusercontent.com/7523776/58966855-0bcc9a80-8781-11e9-868d-4effb756136d.png)
 
 **Figure 1C. Identity stimuli. i.** All head orientations rendered for each identity condition (average identity shown for illustration): 7 azimuth angles x 3 elevation angles for 21 head orientations. **ii.** Identity trajectories through face space were selected through all pairwise combinations of the first 5 principal components from the PCA (which cumulatively account for 75% of the sample variance in facial morphology), at 3 polar angles for a total of 65 unique trajectories. **iii.** Identities were rendered at eight levels of distinctiveness (±4σ from the sample mean in 1σ increments) along each identity trajectory (shown here for the first 5 PCs), plus the sample mean for a total of 10,941 unique colour images. 
+
+---
 
 ## Animation subset
 

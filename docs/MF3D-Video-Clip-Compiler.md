@@ -6,7 +6,10 @@ While there are many programs available for video editing, we like to use the vi
 2. Blender has an embedded [Python interpreter](https://docs.blender.org/api/current/), allowing Python scripting of various actions
 3. Blender is the software that we also used to render the images and movies of 3D macaque avatar
 
+---
+
 ### Using MF3D_CompileMovies.py
+
 MF3D R1 provides a limited set of movie clips, which are summarized in the accompanying spreadsheet (.csv file).  [MF3D_CompileMovies.py]() reads the data from this spreadsheet to find the appropriate order to position various movie clips in order to generate a new longer movie containing smooth continuous motion. 
 
 ### Example
@@ -23,3 +26,6 @@ PlaybackSpeed   = [1, 2, 1, 3, 1]
 3. load the movie clip containing a 'coo' vocalization with the head azimuth angle at -60°,
 4. load the frames from the head rotation clip to show the head rotating from -60° to +30°, at 105°/second
 5. load the movie clip containing a 'scream' vocalization with the head azimuth angle at +30°
+
+---
+
