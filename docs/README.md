@@ -27,7 +27,7 @@ The following video animations demonstrate some of the parameters of the 3D maca
 
 #### **Facial expression, gaze and lighting**<br>
 
-<div align="left"><iframe src="https://player.vimeo.com/video/326460055?color=ff9933&byline=0&portrait=0" width="500" height="281" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+<iframe class="float-left" src="https://player.vimeo.com/video/326460055?color=ff9933&byline=0&portrait=0" width="500" height="281" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 This video demonstrates how our macaque model of emotional facial expressions (for a single identity) can be continuously and parametrically varied to adjust appearance. The model was constructed using computed tomography (CT) data from a real Rhesus macaque, acquired under anesthesia, and edited and rigged by a professional digital artist. In addition to control of various facial expressions, the model's head and eye gaze direction can be programmatically controlled, as well as other variables such as environmental lighting and surface coloration, amongst others.<br>
 
@@ -35,7 +35,7 @@ This video demonstrates how our macaque model of emotional facial expressions (f
 
 #### **Facial dynamics estimation**<br>
 
-<div align="left"><iframe src="https://player.vimeo.com/video/329805226?color=ff9933&byline=0&portrait=0" width="500" height="281" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+<iframe class="float-left" src="https://player.vimeo.com/video/329805226?color=ff9933&byline=0&portrait=0" width="500" height="281" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 In order to simulate naturalistic facial dynamics in the macaque avatar, we estimate the time courses of facial motion from video footage of real animals. Applying these time courses to the animation of bones and shape keys of the model, we can mimic the facial motion of the original clip, while retaining independent control over a wide range of other variables. The output animation can be rendered at a higher resolution and frame rate (using interpolation) than the input video. (Original video footage in the left panel is used with permission of Off The Fence™).<br>
 
@@ -43,7 +43,7 @@ In order to simulate naturalistic facial dynamics in the macaque avatar, we esti
 
 #### **Identity morphing**<br>
 
-<div align="left"><iframe src="https://player.vimeo.com/video/323447440?loop=1&color=ff9933&byline=0&portrait=0" width="500" height="281" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+<iframe class="float-left" src="https://player.vimeo.com/video/323447440?loop=1&color=ff9933&byline=0&portrait=0" width="500" height="281" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 This video demonstrates how the model of individual variations in cranio-facial morphology (3D shape) can be continuously and parametrically varied to adjust appearance, as in the [MF3D R1 Identity](https://doi.org/10.6084/m9.figshare.8226311) stimulus set. The statistical model was constructed through principal component analysis (PCA) of the 3D surface reconstructions of 23 real Rhesus monkeys from computed tomography (CT) data acquired under anesthesia. The 3D plot in the top right corner illustrates the first three principal components of this 'face-space', where the origin of the plot represents the sample average face.
 
@@ -51,7 +51,7 @@ This video demonstrates how the model of individual variations in cranio-facial 
 
 #### **Animated sequences**<br>
 
-<iframe class="float-right" src="https://player.vimeo.com/video/394782616?color=ff9933&byline=0&portrait=0" width="500" height="281" frameborder="0" style="text-align:left" allow="autoplay; fullscreen" allowfullscreen></iframe></div><p>This video demonstrates how animation clips from the [MF3D R1 Animation](https://figshare.com/articles/MF3D_R1_Animations/8226317) stimulus set can be combined to form a longer continuous animation sequence for use in experiments that require more naturalistic dynamics. This example was generated using the Python script [`MF3D_ConcatClips_Demo.py`](https://github.com/MonkeyGone2Heaven/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py) to control Blender's video sequence editor.</p>
+<iframe class="float-left" src="https://player.vimeo.com/video/394782616?color=ff9933&byline=0&portrait=0" width="500" height="281" frameborder="0" style="text-align:left" allow="autoplay; fullscreen" allowfullscreen></iframe></div><p>This video demonstrates how animation clips from the [MF3D R1 Animation](https://figshare.com/articles/MF3D_R1_Animations/8226317) stimulus set can be combined to form a longer continuous animation sequence for use in experiments that require more naturalistic dynamics. This example was generated using the Python script [`MF3D_ConcatClips_Demo.py`](https://github.com/MonkeyGone2Heaven/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py) to control Blender's video sequence editor.</p>
 <div class="clear"></div> 
 
 
