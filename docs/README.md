@@ -1,5 +1,5 @@
 ### About the MF3D Tools repository
-This GitHub repository contains code (Matlab and Python) to facilitate the selection, loading, editing, analysis and saving of images and animations from the [MF3D stimulus set](https://figshare.com/projects/MF3D_Release_1_A_visual_stimulus_set_of_parametrically_controlled_CGI_macaque_faces_for_research/64544). The images and animations themselves are hosted on figshare and must be downloaded separately for this code to be of use:
+This GitHub repository contains code (Matlab and Python) to facilitate the selection, loading, editing, analysis and saving of images and animations from the [MF3D stimulus set](https://figshare.com/projects/MF3D_Release_1_A_visual_stimulus_set_of_parametrically_controlled_CGI_macaque_faces_for_research/64544). The images and animations themselves are hosted on [Figshare](https://figshare.com/) and must be downloaded separately for this code to be of use:
 * [MF3D Expression set](https://doi.org/10.6084/m9.figshare.8226029)
 * [MF3D Identities set](https://doi.org/10.6084/m9.figshare.8226311)
 * [MF3D Animations set](https://doi.org/10.6084/m9.figshare.8226317)
@@ -43,7 +43,7 @@ In order to simulate naturalistic facial dynamics in the macaque avatar, we esti
 
 #### **Identity morphing**<br>
 
-<iframe class="float-left" src="https://player.vimeo.com/video/323447440?loop=1&color=ff9933&byline=0&portrait=0" width="500" height="281" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe class="float-left" src="https://player.vimeo.com/video/323447440?loop=1&color=ff9933&byline=0&portrait=0" width="500" height="281" frameborder="0" style="border:1;display:block;margin:auto" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 This video demonstrates how the model of individual variations in cranio-facial morphology (3D shape) can be continuously and parametrically varied to adjust appearance, as in the [MF3D R1 Identity](https://doi.org/10.6084/m9.figshare.8226311) stimulus set. The statistical model was constructed through principal component analysis (PCA) of the 3D surface reconstructions of 23 real Rhesus monkeys from computed tomography (CT) data acquired under anesthesia. The 3D plot in the top right corner illustrates the first three principal components of this 'face-space', where the origin of the plot represents the sample average face.
 
@@ -51,15 +51,13 @@ This video demonstrates how the model of individual variations in cranio-facial 
 
 #### **Animated sequences**<br>
 
-<iframe class="float-left" src="https://player.vimeo.com/video/394782616?color=ff9933&byline=0&portrait=0" width="500" height="281" frameborder="0" style="text-align:left" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p>This video demonstrates how animation clips from the [MF3D R1 Animation](https://figshare.com/articles/MF3D_R1_Animations/8226317) stimulus set can be combined to form a longer continuous animation sequence for use in experiments that require more naturalistic dynamics. This example was generated using the Python script [`MF3D_ConcatClips_Demo.py`](https://github.com/MonkeyGone2Heaven/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py) to control Blender's video sequence editor.</p>
-<div class="clear"></div> 
+<iframe style="align:left; display:block" src="https://player.vimeo.com/video/394782616?color=ff9933&byline=0&portrait=0" width="500" height="281" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<img align="right" alt="Creative Commons License" src="https://thumbnails.cbc.ca/maven_legacy/thumbnails/437/271/MK0416_2500kbps_852x480_2664446519.jpg" width="200"/>
 
 
 
 
 
-
-
-
+This video demonstrates how animation clips from the [MF3D R1 Animation](https://figshare.com/articles/MF3D_R1_Animations/8226317) stimulus set can be combined to form a longer continuous animation sequence for use in experiments that require more naturalistic dynamics. This example was generated using the Python script [`MF3D_ConcatClips_Demo.py`](https://github.com/MonkeyGone2Heaven/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py) to control Blender's video sequence editor.
 
