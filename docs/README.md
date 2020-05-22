@@ -51,13 +51,7 @@ This video demonstrates how the model of individual variations in cranio-facial 
 
 #### **Animated sequences**<br>
 
-<iframe style="align:left; display:block" src="https://player.vimeo.com/video/394782616?color=ff9933&byline=0&portrait=0" width="500" height="281" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-<img align="right" alt="Creative Commons License" src="https://thumbnails.cbc.ca/maven_legacy/thumbnails/437/271/MK0416_2500kbps_852x480_2664446519.jpg" width="200"/>
-
-
-
-
+<iframe class="float-left" style="align:left; display:block" src="https://player.vimeo.com/video/394782616?color=ff9933&byline=0&portrait=0" width="500" height="281" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 This video demonstrates how animation clips from the [MF3D R1 Animation](https://figshare.com/articles/MF3D_R1_Animations/8226317) stimulus set can be combined to form a longer continuous animation sequence for use in experiments that require more naturalistic dynamics. This example was generated using the Python script [`MF3D_ConcatClips_Demo.py`](https://github.com/MonkeyGone2Heaven/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py) to control Blender's video sequence editor.
 
