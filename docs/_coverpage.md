@@ -10,9 +10,8 @@
 
 <!-- background image -->
 
-![](https://raw.githubusercontent.com/MonkeyGone2Heaven/MF3D-Tools/3fd5930bbf7e43916f41a9bf6f652ec851aafcc8/docs/MF3D_Logo_black2.svg)
+<img src="ttps://raw.githubusercontent.com/MonkeyGone2Heaven/MF3D-Tools/3fd5930bbf7e43916f41a9bf6f652ec851aafcc8/docs/MF3D_Logo_black2.svg" alt="MF3D logo" width="500">
 
 <!-- background color -->
 
 ![color](#FFAB03)
-
