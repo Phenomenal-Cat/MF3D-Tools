@@ -37,17 +37,17 @@ This video demonstrates how our macaque model of emotional facial expressions (f
 
 #### **Facial dynamics estimation**<br>
 
-<div align="left"><iframe src="https://player.vimeo.com/video/329805226?color=ff9933&byline=0&portrait=0" width="400" height="225" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>div>
+<div align="left"><iframe src="https://player.vimeo.com/video/329805226?color=ff9933&byline=0&portrait=0" width="400" height="225" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
-In order to simulate naturalistic facial dynamics in our macaque avatar, we estimate the time courses of facial motion from video footage of real animals. Applying these time courses to the animation of bones and shape keys of the model, we can mimic the facial motion of the original clip, while retaining independent control over a wide range of other variables. The output animation can be rendered at a higher resolution and frame rate (using interpolation) than the input video. (Original video footage in the left panel is used with permission of Off The Fence™).<br>
+In order to simulate naturalistic facial dynamics in the macaque avatar, we estimate the time courses of facial motion from video footage of real animals. Applying these time courses to the animation of bones and shape keys of the model, we can mimic the facial motion of the original clip, while retaining independent control over a wide range of other variables. The output animation can be rendered at a higher resolution and frame rate (using interpolation) than the input video. (Original video footage in the left panel is used with permission of Off The Fence™).<br>
 
 ---
 
 #### **Identity morphing**<br>
 
-<div align="left"><iframe src="https://player.vimeo.com/video/323447440?loop=1&color=ff9933&byline=0&portrait=0" width="400" height="225" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>div>
+<div align="left"><iframe src="https://player.vimeo.com/video/323447440?loop=1&color=ff9933&byline=0&portrait=0" width="400" height="225" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
-This video demonstrates how the model of individual variations in cranio-facial morphology (3D shape) can be continuously and parametrically varied to adjust appearance. The statistical model was constructed through principal component analysis (PCA) of the 3D surface reconstructions of 23 real Rhesus monkeys from computed tomography (CT) data acquired under anesthesia. The 3D plot in the top right corner illustrates the first three principal components of this 'face-space', where the origin of the plot represents the sample average face.
+This video demonstrates how the model of individual variations in cranio-facial morphology (3D shape) can be continuously and parametrically varied to adjust appearance, as in the [MF3D R1 Identity](https://doi.org/10.6084/m9.figshare.8226311) stimulus set. The statistical model was constructed through principal component analysis (PCA) of the 3D surface reconstructions of 23 real Rhesus monkeys from computed tomography (CT) data acquired under anesthesia. The 3D plot in the top right corner illustrates the first three principal components of this 'face-space', where the origin of the plot represents the sample average face.
 
 ---
 
