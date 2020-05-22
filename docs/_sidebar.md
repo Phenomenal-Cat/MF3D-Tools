@@ -8,3 +8,5 @@
   * [Stimulus Editor GUI](MF3D-Stimulus-Editor.md)
   * [Parameter Estimation GUI](MF3D-Video-Parameter-Estimation-GUI.md)
   * [Animation Compiler](MF3D-Video-Clip-Compiler.md)
+
+![color](#FFAB03)

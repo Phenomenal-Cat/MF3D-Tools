@@ -4,11 +4,9 @@ This GitHub repository contains code (Matlab and Python) to facilitate the selec
 * [MF3D Identities set](https://doi.org/10.6084/m9.figshare.8226311)
 * [MF3D Animations set](https://doi.org/10.6084/m9.figshare.8226317)
 
----
-
-### Licenses
 The code in this repository is licensed under GNU General Public License [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/#), while the media provided in the MF3D R1 stimulus set is licensed under Creative Commons [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/).
 If you use any content from the stimulus set in your research, we ask that you cite the following publication:
+
 > [**Murphy AP & Leopold DA (2019)**. A parameterized digital 3D model of the Rhesus macaque face for investigating the visual processing of social cues. _J.Neurosci.Methods_, 324: 108309. DOI: 10.1016/j.jneumeth.2019.06.001](https://doi.org/10.1016/j.jneumeth.2019.06.001)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="vertical-align:left;margin:10px" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
@@ -53,7 +51,14 @@ This video demonstrates how the model of individual variations in cranio-facial 
 
 #### **Animated sequences**<br>
 
-<div align="left"><iframe src="https://player.vimeo.com/video/394782616?color=ff9933&byline=0&portrait=0" width="400" height="225" frameborder="0" style="text-align:left" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+<iframe class="float-right" src="https://player.vimeo.com/video/394782616?color=ff9933&byline=0&portrait=0" width="400" height="225" frameborder="0" style="text-align:left" allow="autoplay; fullscreen" allowfullscreen></iframe></div><p>This video demonstrates how animation clips from the [MF3D R1 Animation](https://figshare.com/articles/MF3D_R1_Animations/8226317) stimulus set can be combined to form a longer continuous animation sequence for use in experiments that require more naturalistic dynamics. This example was generated using the Python script [`MF3D_ConcatClips_Demo.py`](https://github.com/MonkeyGone2Heaven/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py) to control Blender's video sequence editor.</p>
+<div class="clear"></div> 
 
-This video demonstrates how animation clips from the [MF3D R1 Animation](https://figshare.com/articles/MF3D_R1_Animations/8226317) stimulus set can be combined to form a longer continuous animation sequence for use in experiments that require more naturalistic dynamics. This example was generated using the Python script [`MF3D_ConcatClips_Demo.py`](https://github.com/MonkeyGone2Heaven/MF3D-Tools/blob/master/MF3D_Blender/MF3D_ConcatClips_Demo.py) to control Blender's video sequence editor.
+
+
+
+
+
+
+
 
