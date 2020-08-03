@@ -99,7 +99,7 @@ for clip in range(0, TotalCond):
     #======== Add captions
     if AddCaptions == 1:
         Mov.blend_type = 'ALPHA_UNDER'
-        Txt = SE.sequences.new_effect("Text{:01d}".format(clip), 'TEXT', 1, FrameStart, FrameStart+ExpFrames[clip])
+        Txt = SE.sequences.new_effect("Text{:01d}".format(clip), 'TEXT', 1, FrameStart, frame_end=FrameStart+ExpFrames[clip])
         Txt.text        = "{:s} ({:01d} deg)".format(AllData['Action'][ExpIndx[ExpOrder[clip]]], AllData['Head_azimuth_start'][ExpIndx[ExpOrder[clip]]])
         Txt.align_y     = 'BOTTOM'
         Txt.align_x     = 'LEFT'

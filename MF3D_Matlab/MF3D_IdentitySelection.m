@@ -24,7 +24,6 @@ Colors                  = [0,0,0.5; 0,1,1; 1,0.5,0];
 ColorIndx               = [1,2,2,2,1,3,3,3];
 RingColors              = [1,0.7,0.7; 1,0.3,0.3; 1,0,0; 0.5,0,0];
 
-
 fh = figure('position',[0,0,800,800], 'name', 'MF3D Identity Selection');
 
 %=========== Head oreintation matrix
@@ -83,6 +82,8 @@ xlabel(sprintf('PC B (%s)', char(417)), 'fontsize', 14);
 ylabel(sprintf('PC A (%s)', char(417)), 'fontsize', 14);
 zlabel(sprintf('PC C (%s)', char(417)), 'fontsize', 14);
 th(2) = title(sprintf('# PC trajectories selected = %d', sum(Selected.PCvectors(:))), 'fontsize', 12, 'FontWeight', 'normal');
+
+uicontrol('style','pushbutton', 'String', 'Genereate Filenames','HorizontalAlignment','Left','parent', fh, 'units','normalized','position', [0.01, 0.01, 0.15, 0.05],'callback',{@GenerateFilenames});
 
 
 %% ============================ Subfunctions ==============================
@@ -157,6 +158,50 @@ function PCmarkerClick(hObj, Evnt, Indx)
     end
 
     set(th(2), 'string', sprintf('# PC trajectories selected = %d', sum(Selected.PCvectors(:))));
+end
+
+function Filenames = GenerateFilenames(hObj, Evnt, Indx)
+    
+    fprintf('Selected head angles = %d\n', sum(Selected.OrientGrid(:)));
+    fprintf('Selected PC combos = %d\n', sum(Selected.PCcombos(:)));
+    fprintf('Selected PC vectors = %d\n', sum(Selected.PCvectors(:)));
+    AnlgeSubset = Anlges_deg(2:4);
+    
+    Filenames = {};
+    for el = 1:size(Selected.OrientGrid, 1)
+        for az = 1:size(Selected.OrientGrid, 2)
+            for PCa = 1:size(Selected.PCcombos, 1)
+                for PCb = 1:size(Selected.PCcombos, 2)
+                    for ang = 1:numel(AnlgeSubset)
+                        for sd = 1:size(Selected.PCvectors, 2)
+                            if Selected.OrientGrid(el, az) == 1 && Selected.PCcombos(PCa, PCb) == 1 && Selected.PCvectors(ang, sd) == 1
+                                if PCa == PCb
+                                     Filenames{end+1} = sprintf('MF3D_PC%d=%.2f_Haz%d_Hel%d_Gaz0_Gel0_RGBA.png', PCs(PCa), PC_SDs(sd), Az(az), El(el));
+                                elseif PCa < PCb
+                                    Filenames{end+1} = sprintf('MF3D_PC%d+PC%d_(%.1fdeg)=%.2f_Haz%d_Hel%d_Gaz0_Gel0_RGBA.png', PCs(PCa), PCs(PCb), AnlgeSubset(ang), PC_SDs(sd), Az(az), El(el));
+                                elseif PCa > PCb
+                                     Filenames{end+1} = sprintf('MF3D_PC%d-PC%d_(%.1fdeg)=%.2f_Haz%d_Hel%d_Gaz0_Gel0_RGBA.png', PCs(PCb), PCs(PCa), AnlgeSubset(ang), PC_SDs(sd), Az(az), El(el));
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+    CreateSubset(Filenames)
+
+end
+
+function CreateSubset(Filenames)
+    ImDir = '/Volumes/Seagate Backup 3/NIH_Stimuli/MF3D_R1/MF3D_Identities/ColorImages/';
+    DestDir = '/Volumes/Seagate Backup 3/NIH_Stimuli/AvatarRenders/FaceIllusion/';
+    
+    fprintf('Copying %d files...\n', numel(Filenames));
+    for f = 1:numel(Filenames)
+        copyfile(fullfile(ImDir, Filenames{f}), fullfile(DestDir, Filenames{f}));
+    end
+    
 end
 
 end

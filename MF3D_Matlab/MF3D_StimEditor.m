@@ -5,6 +5,8 @@
 % database. It should be run from the 'MF3D_Code' folder inside the MF3D folder
 % in order for relative paths to work. Custom image processing operations
 % can be added by adding code inside the 'ProcessAndSaveImages'subfunction.
+% See https://mf3d.readthedocs.io/en/latest/MF3D-Stimulus-Editor.html
+% for further details.
 %
 % Written by murphyap@nih.gov
 %==========================================================================
